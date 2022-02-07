@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="products.css">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1>Product Management System</h1></header>
+
+    <div class="titlenewproject">
+        <input type="text" name="titre" id="title" placeholder="title">
+    </div>
+    <div class="calcule">
+        <input onkeyup="calculer()" type="number" name="prix" id="price" placeholder="price">
+        <input onkeyup="calculer()" type="number" name="deuxieme" id="taxe" placeholder="0">
+        <input onkeyup="calculer()" type="number" name="troix" id="ads" placeholder="0">
+        <input onkeyup="calculer()" type="number" name="quatre" id="disc"placeholder="0">
+        <div class="number" id="tot">Total: </div>
+    </div>
+    <div class="quant">
+        <input type="text" name="quantite" id="quantity" placeholder="1">
+    </div>
+    <div class="cat">    
+        <input type="text" name="categorie" id="category" placeholder="Category">
+    </div>
+    <div class="creatbtn">
+        <button class="creat" id="creation"> Creat </button>
+    </div>
+    <div class="search">
+        <input onkeyup="serachproducts(this.value)" type="text" name="cherche" id="searching" placeholder="search">
+    </div>
+    <div class="doublebtn">
+        <button onclick="chooseyourway(this.id)" class="stitle" id="bytitle">Search By Tiltle</button>
+        <button onclick="chooseyourway(this.id)" class="scategory" id="bycategory">Search By Category</button>
+    </div>
+    <div class="delete" id="delall">
+        
+    </div>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>TITLE</th>
+            <th>PRICE</th>
+            <th>TAXE</th>
+            <th>ADS</th>
+            <th>DISCOUNT</th>
+            <th>TOTAL</th>
+            <th>QUANTITY</th>
+            <th>CATEGORY</th>
+            <th>UPDATE</th>
+            <th>DELETE</th>
+        </tr>
+        <tbody id="tbody">
+
+        </tbody>
+        
+    </table>
+
+
+<script src="index.js"></script>    
+</body>
+</html>

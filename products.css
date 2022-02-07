@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(30, 30, 31);
+    color: white;
+    text-align: center;
+}
+header{
+    text-align: center;
+    margin: 20px 0px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input{
+    border-style:none;
+    outline: none;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+input:focus{
+    transform: scale(1.1);
+    background-color: black;
+}
+.titlenewproject input{
+    margin: 20px 15px;
+    width: 70%;
+    font-weight: 700;
+    font-size: medium;
+    padding-left: 10px;
+}
+.calcule{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 1px 200px;
+    width: 60%;
+}
+.calcule input{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-weight: bold;
+    font-size: larger;
+}
+.number{
+    padding: 0px 15px;
+    background-color: rgb(161, 92, 12);
+}
+
+.quant input{
+    margin: 20px 15px;
+    width: 70%;
+    font-weight: 700;
+    font-size: medium;
+    padding-left: 10px;
+}
+.cat input{
+    margin: 20px 15px;
+    width: 70%;
+    font-weight: 700;
+    font-size: medium;
+    padding-left: 10px;
+}
+.search input{
+    margin: 20px 15px;
+    width: 70%;
+    font-weight: 700;
+    font-size: medium;
+    padding-left: 10px;
+}
+button{
+    width: 70%;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color:rgb(161, 92, 12) ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+    cursor: pointer;
+}
+button:focus{
+    transform: scale(1.1);
+    background-color:rgb(161, 104, 39) ;
+}
+.doublebtn{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0px 200px;
+}
+.scategory{
+    margin-left: 50%;
+}
+.delete button{
+    margin-top: 15px;
+}
+table{
+    margin-left: 150px;
+}
+th{
+    padding: 20px;
+}
